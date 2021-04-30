@@ -1,1 +1,6 @@
-console.log('Hello Deno');
+const url = 'http://hn.algolia.com/api/v1/search?query=javascript';
+
+fetch(url)
+  .then((result) => result.json())
+  .then((result) => console.log(result.hits));
+
