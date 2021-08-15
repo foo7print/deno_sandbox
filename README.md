@@ -1,1 +1,1 @@
-# deno_sandbox
+# sandbox-deno
